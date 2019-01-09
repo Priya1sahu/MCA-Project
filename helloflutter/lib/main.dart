@@ -1,6 +1,29 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main(){
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('hello world'),
+        ),
+         // ignore: argument_type_not_assignable
+         body:  helloflutter(),   
+        ),
+      ),
+    
+  );
+}
+
+helloflutter() {
+}
+
+
+
+
+
+
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
